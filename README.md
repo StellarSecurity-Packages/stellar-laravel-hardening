@@ -16,7 +16,7 @@ Tiny Laravel package that protects you from pushing `APP_DEBUG=true` to anything
 ## Install
 
 ```bash
-composer require stellar/laravel-hardening
+composer require stellarsecurity/laravel-hardening
 ```
 
 The service provider is auto-discovered.

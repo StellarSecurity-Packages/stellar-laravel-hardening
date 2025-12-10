@@ -1,5 +1,5 @@
 {
-    "name": "stellar/laravel-hardening",
+    "name": "stellarsecurity/laravel-hardening",
     "description": "Stellar Security hardening guard for Laravel (blocks APP_DEBUG=true on production-like hosts).",
     "type": "library",
     "license": "proprietary",
