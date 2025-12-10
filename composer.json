@@ -1,0 +1,21 @@
+{
+    "name": "stellar/laravel-hardening",
+    "description": "Stellar Security hardening guard for Laravel (blocks APP_DEBUG=true on production-like hosts).",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Stellar\\LaravelHardening\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stellar\\LaravelHardening\\Providers\\StellarHardeningServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
